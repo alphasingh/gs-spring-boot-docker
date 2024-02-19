@@ -44,7 +44,8 @@ public class HelloWorldConfigurationTests {
         @Value("${server.servlet.context-path}")
         private String contextPath;
 
-        @Test
+
+	@Test
         public void testGreeting() throws Exception {
                 ResponseEntity<String> entity = restTemplate
                                 .getForEntity("http://localhost:" + this.port + this.contextPath, String.class);
