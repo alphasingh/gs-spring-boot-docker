@@ -1,1 +1,31 @@
-touch
+2024-09-21T14:53:53.580Z  INFO 3376 --- [gsapi] [main] hello.HelloWorldConfigurationTests       : Starting HelloWorldConfigurationTests using Java 17.0.12 with PID 3376 (started by ubuntu in /home/ubuntu/backend/gs-spring-boot-docker/complete)
+2024-09-21T14:53:53.592Z  INFO 3376 --- [gsapi] [main] hello.HelloWorldConfigurationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T14:53:55.054Z  INFO 3376 --- [gsapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-09-21T14:53:55.067Z  INFO 3376 --- [gsapi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T14:53:55.068Z  INFO 3376 --- [gsapi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-09-21T14:53:55.128Z  INFO 3376 --- [gsapi] [main] o.a.c.c.C.[.[localhost].[/gsapi/v1]      : Initializing Spring embedded WebApplicationContext
+2024-09-21T14:53:55.128Z  INFO 3376 --- [gsapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
+2024-09-21T14:53:55.344Z DEBUG 3376 --- [gsapi] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-09-21T14:53:55.427Z DEBUG 3376 --- [gsapi] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-21T14:53:55.452Z DEBUG 3376 --- [gsapi] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-21T14:53:55.482Z DEBUG 3376 --- [gsapi] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-21T14:53:55.608Z  INFO 3376 --- [gsapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 45789 (http) with context path '/gsapi/v1'
+2024-09-21T14:53:55.621Z  INFO 3376 --- [gsapi] [main] hello.HelloWorldConfigurationTests       : Started HelloWorldConfigurationTests in 2.623 seconds (process running for 4.309)
+2024-09-21T14:53:56.654Z DEBUG 3376 --- [gsapi] [main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:45789/gsapi/v1
+2024-09-21T14:53:56.680Z DEBUG 3376 --- [gsapi] [main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2024-09-21T14:53:56.751Z  INFO 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.a.c.c.C.[.[localhost].[/gsapi/v1]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-21T14:53:56.752Z  INFO 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-21T14:53:56.753Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-21T14:53:56.754Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-21T14:53:56.754Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-21T14:53:56.755Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23c7cb18
+2024-09-21T14:53:56.756Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2084e65a
+2024-09-21T14:53:56.756Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-21T14:53:56.756Z  INFO 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-21T14:53:56.764Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/gsapi/v1/", parameters={}
+2024-09-21T14:53:56.774Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to hello.Application#home()
+2024-09-21T14:53:56.794Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-21T14:53:56.796Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello Docker World"]
+2024-09-21T14:53:56.806Z DEBUG 3376 --- [gsapi] [main] o.s.web.client.RestTemplate              : Response 200 OK
+2024-09-21T14:53:56.808Z DEBUG 3376 --- [gsapi] [main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2024-09-21T14:53:56.809Z DEBUG 3376 --- [gsapi] [http-nio-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

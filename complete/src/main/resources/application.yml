@@ -1,6 +1,6 @@
 server:
   port: 5908
-  servlet.context-path: /api/v1
+  servlet.context-path: /gsapi/v1
 
 spring:
   application:
